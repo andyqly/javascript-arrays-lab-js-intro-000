@@ -22,3 +22,9 @@ var kittens2 = kittens.slice()
 kittens2.push(`${name}`)
 return kittens2
 }
+
+function prependKitten(name){
+var kittens3 = kittens.slice()
+kittens3.unshift(`${name}`)
+return kittens3
+}
