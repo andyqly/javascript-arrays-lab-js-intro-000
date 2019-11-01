@@ -18,5 +18,5 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(name){
-appendKitten(`${name}`)
+var kitten1 = appendKitten(`${name}`)
 }
