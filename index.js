@@ -28,3 +28,8 @@ var kittens3 = kittens.slice()
 kittens3.unshift(`${name}`)
 return kittens3
 }
+
+function removeLastKitten(){
+var kittens4 = kittens.slice(0, kittens.length-1)
+return kittens4
+}
