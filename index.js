@@ -18,4 +18,3 @@ function destructivelyRemoveFirstKitten(){
 }
 
 var appendKitten()
-
