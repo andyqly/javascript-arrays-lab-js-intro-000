@@ -35,6 +35,6 @@ return kittens4
 }
 
 function removeFirstKitten(){
-  var kittens5 = kittens.shift(1, 2)
+  var kittens5 = kittens.shift(0, 2)
   return kittens5
 }
